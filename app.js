@@ -2,11 +2,10 @@ const DATA_FILES = {
   itinerary: "data/itinerary.json",
   flights: "data/flights.json",
   stays: "data/stays.json",
-  activities: "data/activities.json",
-  budget: "data/budget.json"
+  activities: "data/activities.json"
 };
 
-const DATA_VERSION = "2026-05-19-sheet-v2";
+const DATA_VERSION = "2026-06-07-no-budget";
 
 // Trip dates are kept in one place so the countdown and phase logic are easy to edit.
 const tripStart = new Date("2026-06-19T00:00:00+10:00");
@@ -54,7 +53,6 @@ async function loadTripData() {
     renderFlights(data.flights.flights);
     renderStays(data.stays.stays);
     renderActivities(data.activities.locations);
-    renderBudget(data.budget);
     setLastUpdated(data);
   } catch (error) {
     console.error(error);
@@ -247,55 +245,6 @@ function renderActivities(groups) {
   });
 }
 
-function renderBudget(budget) {
-  const summary = document.querySelector("#budget-summary");
-  const list = document.querySelector("#budget-list");
-  summary.innerHTML = "";
-  list.innerHTML = "";
-
-  const committedAud = budget.committedAUD ?? budget.paidAUD;
-  const committedMxn = budget.committedMXN ?? budget.paidMXN;
-  const remainingAud = budget.remainingAUD ?? budget.plannedBudgetAUD - committedAud;
-  const remainingMxn = budget.remainingMXN ?? budget.plannedBudgetMXN - committedMxn;
-
-  [
-    ["Planned budget", money(budget.plannedBudgetAUD, "AUD"), money(budget.plannedBudgetMXN, "MXN")],
-    ["Paid items", money(budget.paidAUD, "AUD"), money(budget.paidMXN, "MXN")],
-    ["Remaining estimate", money(remainingAud, "AUD"), money(remainingMxn, "MXN")]
-  ].forEach(([label, aud, mxn]) => {
-    summary.insertAdjacentHTML("beforeend", `
-      <article class="budget-tile">
-        <p class="card-label">${label}</p>
-        <strong>${aud}</strong>
-        <p>${mxn}</p>
-      </article>
-    `);
-  });
-
-  if (!budget.items.length) {
-    list.appendChild(emptyState("💵", "No budget items yet", "Add editable items in data/budget.json."));
-    return;
-  }
-
-  budget.items.forEach((item) => {
-    list.insertAdjacentHTML("beforeend", `
-      <article class="travel-card">
-        <div class="travel-card-header">
-          <div>
-            <h3>${escapeHtml(item.name)}</h3>
-            <p>${escapeHtml(item.note)}</p>
-          </div>
-          <span class="date-chip">${escapeHtml(item.status)}</span>
-        </div>
-        <div class="meta-row">
-          <span class="pill">${money(item.amountAUD, "AUD")}</span>
-          <span class="pill">${money(item.amountMXN, "MXN")}</span>
-        </div>
-      </article>
-    `);
-  });
-}
-
 function setLastUpdated(data) {
   const dates = Object.values(data)
     .map((file) => file.lastUpdated)
@@ -336,14 +285,6 @@ function formatDate(value) {
 
 function formatShortRange(start, end) {
   return `${formatDate(start)} - ${formatDate(end)}`;
-}
-
-function money(amount, currency) {
-  return new Intl.NumberFormat("en-AU", {
-    style: "currency",
-    currency,
-    maximumFractionDigits: 0
-  }).format(amount);
 }
 
 function escapeHtml(value) {

@@ -169,8 +169,7 @@ h1 {
   font-size: 2rem;
 }
 
-.home-grid,
-.budget-grid {
+.home-grid {
   display: grid;
   gap: 0.85rem;
 }
@@ -178,8 +177,7 @@ h1 {
 .feature-card,
 .travel-card,
 .notice-card,
-.empty-state,
-.budget-tile {
+.empty-state {
   border: 1px solid var(--line);
   border-radius: 0.5rem;
   background: rgba(255, 253, 246, 0.92);
@@ -322,16 +320,6 @@ h1 {
   color: var(--cactus);
 }
 
-.budget-tile {
-  padding: 1rem;
-}
-
-.budget-tile strong {
-  display: block;
-  margin: 0.25rem 0;
-  font-size: 1.5rem;
-}
-
 .compact-list .travel-card {
   box-shadow: none;
 }
@@ -362,7 +350,7 @@ h1 {
   left: 0.65rem;
   z-index: 10;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 0.2rem;
   padding: 0.35rem;
   border: 1px solid var(--line);
@@ -406,8 +394,7 @@ h1 {
     padding-inline: 2rem;
   }
 
-  .home-grid,
-  .budget-grid {
+  .home-grid {
     grid-template-columns: repeat(3, 1fr);
   }
 

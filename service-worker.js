@@ -1,4 +1,4 @@
-const CACHE_NAME = "suarez-mexico-2026-v3";
+const CACHE_NAME = "suarez-mexico-2026-v4";
 
 const APP_FILES = [
   "./",
@@ -12,8 +12,7 @@ const APP_FILES = [
   "./data/itinerary.json",
   "./data/flights.json",
   "./data/stays.json",
-  "./data/activities.json",
-  "./data/budget.json"
+  "./data/activities.json"
 ];
 
 self.addEventListener("install", (event) => {
