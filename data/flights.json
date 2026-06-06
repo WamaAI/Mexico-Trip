@@ -1,0 +1,105 @@
+{
+  "lastUpdated": "2026-05-19",
+  "source": "Google Sheet: Mexico 2026, tab: Itinerary",
+  "flights": [
+    {
+      "date": "2026-06-19",
+      "time": "8:05 AM",
+      "departureCity": "Brisbane",
+      "arrivalCity": "Sydney",
+      "airline": "Qantas",
+      "flightNumber": "QF509",
+      "status": "Outbound",
+      "bookingReferencePlaceholder": "REMOVE-ME-LATER",
+      "note": "First leg of the outbound journey."
+    },
+    {
+      "date": "2026-06-19",
+      "time": "12:10 PM",
+      "departureCity": "Sydney",
+      "arrivalCity": "Dallas / Fort Worth",
+      "airline": "Qantas",
+      "flightNumber": "QF7",
+      "status": "Outbound",
+      "bookingReferencePlaceholder": "",
+      "note": "Arrives Dallas / Fort Worth 12:30 PM local time."
+    },
+    {
+      "date": "2026-06-19",
+      "time": "2:40 PM",
+      "departureCity": "Dallas / Fort Worth",
+      "arrivalCity": "Mexico City",
+      "airline": "American Airlines / Qantas codeshare",
+      "flightNumber": "AA2350 / QF4407",
+      "status": "Outbound",
+      "bookingReferencePlaceholder": "",
+      "note": "Arrives Mexico City 4:15 PM."
+    },
+    {
+      "date": "2026-06-28",
+      "time": "8:45 PM",
+      "departureCity": "Mexico City area",
+      "arrivalCity": "Monterrey",
+      "airline": "Viva Aerobus",
+      "flightNumber": "VB4417",
+      "status": "Internal",
+      "bookingReferencePlaceholder": "",
+      "note": "NLU to MTY after the family driver transfer from Valle de Bravo."
+    },
+    {
+      "date": "2026-07-03",
+      "time": "4:25 PM",
+      "departureCity": "Monterrey",
+      "arrivalCity": "Mexico City area",
+      "airline": "Viva Aerobus",
+      "flightNumber": "VB7016",
+      "status": "Internal",
+      "bookingReferencePlaceholder": "",
+      "note": "MTY to NLU for the middle Mexico City leg."
+    },
+    {
+      "date": "2026-07-10",
+      "time": "11:05 AM",
+      "departureCity": "Mexico City area",
+      "arrivalCity": "Ixtapa / Zihuatanejo",
+      "airline": "Viva Aerobus",
+      "flightNumber": "VB3676",
+      "status": "Internal",
+      "bookingReferencePlaceholder": "",
+      "note": "NLU to ZIH for the resort stay."
+    },
+    {
+      "date": "2026-07-14",
+      "time": "11:30 AM",
+      "departureCity": "Ixtapa / Zihuatanejo",
+      "arrivalCity": "Mexico City area",
+      "airline": "Viva Aerobus",
+      "flightNumber": "VB3677",
+      "status": "Internal",
+      "bookingReferencePlaceholder": "",
+      "note": "ZIH to NLU for the final Mexico City leg."
+    },
+    {
+      "date": "2026-07-19",
+      "time": "3:00 PM",
+      "departureCity": "Mexico City",
+      "arrivalCity": "Los Angeles",
+      "airline": "American Airlines / Qantas codeshare",
+      "flightNumber": "AA2547 / QF4390",
+      "status": "Homebound",
+      "bookingReferencePlaceholder": "",
+      "note": "Arrives Los Angeles 6:05 PM."
+    },
+    {
+      "date": "2026-07-19",
+      "time": "9:10 PM",
+      "departureCity": "Los Angeles",
+      "arrivalCity": "Brisbane",
+      "airline": "Qantas",
+      "flightNumber": "QF16",
+      "status": "Homebound",
+      "bookingReferencePlaceholder": "REMOVE-ME-LATER",
+      "note": "Arrives Brisbane 5:00 AM on 21 July 2026."
+    }
+  ]
+}

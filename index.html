@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#d94f2b">
+    <meta name="description" content="Suarez Family Mexico 2026 trip dashboard">
+    <title>Suárez Family Mexico 2026</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="assets/icon-192.svg">
+    <link rel="icon" href="assets/icon-192.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="app-hero">
+      <div class="hero-pattern" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="eyebrow">19 June - 21 July 2026</p>
+        <h1>The Suárez Family Mexico 2026 Adventure</h1>
+        <p class="tagline">Brought to you by Suárez Family Travel Agency</p>
+        <div class="travellers" aria-label="Travellers">
+          <span>Juanma</span>
+          <span>Julia</span>
+          <span>River</span>
+          <span>Sebastian</span>
+          <span>Eva</span>
+        </div>
+      </div>
+    </header>
+
+    <main id="main" class="app-shell">
+      <section id="home" class="view active-view" aria-labelledby="home-title">
+        <div class="section-title">
+          <p class="eyebrow">Family dashboard</p>
+          <h2 id="home-title">Home</h2>
+        </div>
+
+        <div class="home-grid">
+          <article class="feature-card countdown-card">
+            <span class="card-icon">🌞</span>
+            <p class="card-label">Trip countdown</p>
+            <h3 id="countdown">Loading...</h3>
+            <p id="countdown-detail">Mexico is warming up the mariachi band.</p>
+          </article>
+
+          <article class="feature-card">
+            <span class="card-icon">🧭</span>
+            <p class="card-label">Current phase</p>
+            <h3 id="current-phase">Loading...</h3>
+            <p id="current-phase-detail">Checking the family travel map.</p>
+          </article>
+
+          <article class="feature-card">
+            <span class="card-icon">🎉</span>
+            <p class="card-label">Next major event</p>
+            <h3 id="next-event">Loading...</h3>
+            <p id="next-event-detail">Finding the next fun thing.</p>
+          </article>
+        </div>
+
+        <article class="notice-card">
+          <span>🧳</span>
+          <div>
+            <h3>Holiday operating mode</h3>
+            <p>Short walks, snack breaks, flexible starts, and a heroic amount of patience for jet lag.</p>
+          </div>
+        </article>
+      </section>
+
+      <section id="itinerary" class="view" aria-labelledby="itinerary-title">
+        <div class="section-title">
+          <p class="eyebrow">Day by day</p>
+          <h2 id="itinerary-title">Itinerary</h2>
+        </div>
+        <div id="itinerary-list" class="card-list"></div>
+      </section>
+
+      <section id="flights" class="view" aria-labelledby="flights-title">
+        <div class="section-title">
+          <p class="eyebrow">Travel legs</p>
+          <h2 id="flights-title">Flights</h2>
+        </div>
+        <div id="flights-list" class="card-list"></div>
+      </section>
+
+      <section id="stays" class="view" aria-labelledby="stays-title">
+        <div class="section-title">
+          <p class="eyebrow">Where we sleep</p>
+          <h2 id="stays-title">Stays</h2>
+        </div>
+        <div id="stays-list" class="card-list"></div>
+      </section>
+
+      <section id="activities" class="view" aria-labelledby="activities-title">
+        <div class="section-title">
+          <p class="eyebrow">Ideas by place</p>
+          <h2 id="activities-title">Activities</h2>
+        </div>
+        <div id="activities-list" class="activity-groups"></div>
+      </section>
+
+      <section id="budget" class="view" aria-labelledby="budget-title">
+        <div class="section-title">
+          <p class="eyebrow">Simple totals</p>
+          <h2 id="budget-title">Budget</h2>
+        </div>
+        <div id="budget-summary" class="budget-grid"></div>
+        <div id="budget-list" class="card-list compact-list"></div>
+      </section>
+
+    </main>
+
+    <footer class="app-footer">
+      <p id="last-updated">Last updated: Loading...</p>
+      <p>No passports, ticket numbers, full addresses, or private phone numbers are stored here.</p>
+    </footer>
+
+    <nav class="bottom-nav" aria-label="Main navigation">
+      <button class="nav-button active" data-target="home" type="button">🏠<span>Home</span></button>
+      <button class="nav-button" data-target="itinerary" type="button">📅<span>Plan</span></button>
+      <button class="nav-button" data-target="flights" type="button">✈️<span>Flights</span></button>
+      <button class="nav-button" data-target="stays" type="button">🛏️<span>Stays</span></button>
+      <button class="nav-button" data-target="activities" type="button">🌮<span>Fun</span></button>
+      <button class="nav-button" data-target="budget" type="button">💵<span>Budget</span></button>
+    </nav>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>

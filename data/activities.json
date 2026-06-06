@@ -1,0 +1,139 @@
+{
+  "lastUpdated": "2026-05-19",
+  "source": "Google Sheet: Mexico 2026, tab: Itinerary",
+  "locations": [
+    {
+      "location": "Mexico City",
+      "activities": [
+        {
+          "name": "Plaza Garibaldi mariachi dinner",
+          "description": "River's 17th birthday dinner idea from the source itinerary.",
+          "energy": "Easy",
+          "tags": ["Paid", "Food", "Culture", "Birthday"]
+        },
+        {
+          "name": "Parque Mexico + Parque Espana",
+          "description": "Gentle first-day parks plan after the long flight.",
+          "energy": "Easy",
+          "tags": ["Free", "Relaxed", "Family"]
+        },
+        {
+          "name": "Angel de la Independencia",
+          "description": "Easy city landmark visit on the first Mexico City weekend.",
+          "energy": "Easy",
+          "tags": ["Free", "Culture"]
+        },
+        {
+          "name": "Teotihuacan pyramids",
+          "description": "Day trip from Mexico City with early start, water, hats, and careful pacing.",
+          "energy": "Big day",
+          "tags": ["Paid", "Culture", "History"]
+        },
+        {
+          "name": "Chapultepec Park + Castle",
+          "description": "Park and castle outing with transport breaks to avoid too much walking.",
+          "energy": "Medium",
+          "tags": ["Paid", "Culture", "Family"]
+        },
+        {
+          "name": "Historic Centre",
+          "description": "Afternoon city centre visit, best done as a compact route with cafe breaks.",
+          "energy": "Medium",
+          "tags": ["Free", "Culture", "Food"]
+        },
+        {
+          "name": "Mercado Coyoacan + Frida Kahlo Museum",
+          "description": "Food, colour, and museum afternoon in Coyoacan.",
+          "energy": "Medium",
+          "tags": ["Paid", "Food", "Culture"]
+        },
+        {
+          "name": "Xochimilco boats",
+          "description": "Group boat outing from the source itinerary.",
+          "energy": "Easy",
+          "tags": ["Paid", "Culture", "Family"]
+        },
+        {
+          "name": "Anthropology Museum + Reforma walk",
+          "description": "Museum anchor day with the Reforma walk kept optional.",
+          "energy": "Medium",
+          "tags": ["Paid", "Culture"]
+        },
+        {
+          "name": "Mercado de Artesanias La Ciudadela",
+          "description": "Souvenir shopping without storing private addresses or contact details.",
+          "energy": "Easy",
+          "tags": ["Paid", "Culture", "Shopping"]
+        },
+        {
+          "name": "Lucha libre - Arena Mexico",
+          "description": "Evening Lucha Libre plan from the source itinerary.",
+          "energy": "Easy",
+          "tags": ["Paid", "Culture", "Teen-friendly"]
+        },
+        {
+          "name": "World Cup / Fanfest options",
+          "description": "Australia, Colombia, semifinal, and third-place match watching options from the itinerary.",
+          "energy": "Flexible",
+          "tags": ["Free", "Paid", "World Cup", "Culture"]
+        }
+      ]
+    },
+    {
+      "location": "Valle de Bravo",
+      "activities": [
+        {
+          "name": "Family time with cousin Natis",
+          "description": "Relaxed family days in Valle de Bravo from 22 to 28 June.",
+          "energy": "Easy",
+          "tags": ["Free", "Relaxed", "Family"]
+        },
+        {
+          "name": "Family transfer to Mexico City airport",
+          "description": "Updated source itinerary uses a driver transfer from Valle de Bravo to the airport on 28 June.",
+          "energy": "Easy",
+          "tags": ["Paid", "Relaxed", "Family"]
+        }
+      ]
+    },
+    {
+      "location": "Monterrey",
+      "activities": [
+        {
+          "name": "Family time with aunt Norma",
+          "description": "Relaxed Monterrey family stay from 29 June to 3 July.",
+          "energy": "Easy",
+          "tags": ["Free", "Relaxed", "Family"]
+        },
+        {
+          "name": "Colombia game / Fanfest option",
+          "description": "Conditional World Cup watch plan from the source itinerary.",
+          "energy": "Flexible",
+          "tags": ["Free", "Paid", "World Cup"]
+        }
+      ]
+    },
+    {
+      "location": "Ixtapa",
+      "activities": [
+        {
+          "name": "Barcelo Ixtapa all-inclusive resort days",
+          "description": "Beach, pool, food, and rest from 10 to 14 July.",
+          "energy": "Easy",
+          "tags": ["Paid", "Relaxed", "Family"]
+        }
+      ]
+    },
+    {
+      "location": "Puebla",
+      "activities": [
+        {
+          "name": "Puebla day trip",
+          "description": "Optional day trip from the final Mexico City leg.",
+          "energy": "Big day",
+          "tags": ["Paid", "Food", "Culture"]
+        }
+      ]
+    }
+  ]
+}
