@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19",
+  "lastUpdated": "2026-06-09",
   "source": "Google Sheet: Mexico 2026, tab: Itinerary",
   "locations": [
     {
@@ -90,9 +90,15 @@
         },
         {
           "name": "Family transfer to Mexico City airport",
-          "description": "Updated source itinerary uses a driver transfer from Valle de Bravo to the airport on 28 June.",
+          "description": "Source itinerary uses a driver transfer from Valle de Bravo to the airport on 28 June.",
           "energy": "Easy",
           "tags": ["Paid", "Relaxed", "Family"]
+        },
+        {
+          "name": "Colombian party at Natis",
+          "description": "Watch the Colombia game with family on the final Valle de Bravo evening.",
+          "energy": "Easy",
+          "tags": ["Free", "World Cup", "Family"]
         }
       ]
     },

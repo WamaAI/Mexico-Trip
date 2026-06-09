@@ -5,7 +5,7 @@ const DATA_FILES = {
   activities: "data/activities.json"
 };
 
-const DATA_VERSION = "2026-06-07-no-budget";
+const DATA_VERSION = "2026-06-09-sheet-refresh";
 
 // Trip dates are kept in one place so the countdown and phase logic are easy to edit.
 const tripStart = new Date("2026-06-19T00:00:00+10:00");

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19",
+  "lastUpdated": "2026-06-09",
   "source": "Google Sheet: Mexico 2026, tab: Itinerary",
   "flights": [
     {
@@ -37,14 +37,14 @@
     },
     {
       "date": "2026-06-28",
-      "time": "8:45 PM",
+      "time": "8:20 PM",
       "departureCity": "Mexico City area",
       "arrivalCity": "Monterrey",
       "airline": "Viva Aerobus",
-      "flightNumber": "VB4417",
+      "flightNumber": "VB7071",
       "status": "Internal",
       "bookingReferencePlaceholder": "",
-      "note": "NLU to MTY after the family driver transfer from Valle de Bravo."
+      "note": "NLU to MTY after the family driver transfer from Valle de Bravo. Arrives Monterrey 9:55 PM."
     },
     {
       "date": "2026-07-03",
